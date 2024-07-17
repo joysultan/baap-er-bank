@@ -3,7 +3,6 @@ document.getElementById('btn-submit').addEventListener('click', function(){
     const email = emailField.value;
     const userPassword = document.getElementById('user-password');
     const passwordField = userPassword.value;
-    console.log(email,passwordField)
     if(email=== 'baaperbank@gmail.com' && passwordField === 'secret'){
         window.location.href = 'inside.html';
     }
