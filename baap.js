@@ -7,6 +7,6 @@ document.getElementById('btn-submit').addEventListener('click', function(){
         window.location.href = 'inside.html';
     }
     else{
-        alert('invalid user')
+        alert('4 talare jemne chudsi tui janos nai temni tui password mail o janosna BC')
     }
 })
